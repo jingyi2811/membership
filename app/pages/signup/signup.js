@@ -7,14 +7,13 @@ import {
     ImageBackground,
     TouchableHighlight,
 } from 'react-native';
-import {CKeyboard} from '../keyboard/cKeyboard';
-
-import loginBaImg from '../../assets/img/login-ba.png';
-import backgroundImg from '../../assets/img/background.png';
-import commonStyles from './../commonStyles';
+import {CKeyboard} from "./../../components/keyboard/cKeyboard";
+import loginBaImg from './../../assets/img/login-ba.png';
+import backgroundImg from './../../assets/img/background.png';
+import commonStyles from './../../commonStyles';
 import styles from './styles';
 
-export class Login extends Component {
+export class SignUp extends Component {
     constructor(props) {
         super(props);
         this.state = {
