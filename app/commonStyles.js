@@ -1,4 +1,7 @@
-import {StyleSheet} from "react-native";
+import {
+    StyleSheet,
+    PixelRatio
+} from "react-native";
 
 export default StyleSheet.create({
     flexVertical: {
@@ -10,6 +13,11 @@ export default StyleSheet.create({
     colAuto: {
         flexBasis: 'auto',
         flexGrow: 0,
+        flexShrink: 0,
+    },
+    colExpand: {
+        flexBasis: 'auto',
+        flexGrow: 1,
         flexShrink: 0,
     },
     col: {
@@ -44,6 +52,9 @@ export default StyleSheet.create({
     },
     alignItemsCenter: {
         alignItems: 'center',
+    },
+    alignItemsEnd: {
+        alignItems: 'flex-end',
     },
     justifyContentSpaceBetween: {
         justifyContent: 'space-between',
@@ -82,5 +93,15 @@ export default StyleSheet.create({
     },
     mb0: {
         marginBottom: 0,
+    },
+    br0: {
+        borderRightWidth: 0,
+    },
+    bb0: {
+        borderBottomWidth: 0,
     }
 });
+
+export function scale(px) {
+    return px * 1.27 / PixelRatio.get();
+}
