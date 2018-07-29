@@ -13,9 +13,11 @@
     "react-native-elements": "^0.19.1",
     "react-native-keyboard": "^2.0.1",
     "react-native-linear-gradient": "^2.4.0",
+    "react-native-navigation": "^2.0.2431",
     "react-native-shadow": "^1.2.2",
     "react-native-svg": "X.X.X",
     "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.12",
     "tcomb-form-native": "^0.6.13"
   },
   "devDependencies": {
