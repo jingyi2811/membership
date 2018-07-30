@@ -1,5 +1,5 @@
 import React from "react";
-import commonStyles from './commonStyles';
+import commonStyles from './../../commonStyles';
 import {
     View,
 } from 'react-native';

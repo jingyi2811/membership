@@ -7,7 +7,7 @@ import {
     Image,
 } from 'react-native';
 import { Button } from 'react-native-elements';
-import commonStyles from './../commonStyles';
+import commonStyles from './../../../commonStyles';
 import styles from './styles';
 
 export class RightSide extends React.Component {

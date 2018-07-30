@@ -12,7 +12,7 @@ import {
 } from 'react-native-elements';
 
 import {LeftRow} from './LeftRow/LeftRow';
-import commonStyles from './../commonStyles';
+import commonStyles from './../../../commonStyles';
 import styles from './styles';
 export class LeftSide extends React.Component {
     constructor(props) {
