@@ -1,38 +1,39 @@
-Iteration 2 involves 8 screens.
+[Iteration 1]
 
-1) As iteration 1 develop 5 screens only, developer need to create 1st, 5th and 6th page.
-   Page 6 is actually same as page 2 where programmer just need to add extra component on top of existing page.
-2) Page 1 to page 7 are interrelated. 
-3) Login page are independent and does not related with other screens.
+- Involves 5 screens.
+- There is no javascript logic needed in this iteration.
+- Completed except the background of 2nd screen still need to be amended
 
-(Page 1)
+[Iteration 2]
 
-- Merchant Login:
-U: remember
-P: abc123
+- Involves 8 merchant screens and 1 client screen.
+- Basic javascript hard-coded logic is needed in this iteration.
+- The order of pages are resetted. Developer need to create 1st, 5th and 6th pages.
+- The 8 merchant screens are interrelated and allow user to navigate between the pages.
+- (Detail)
+  a) Page 6 re-use page 2 design. The only difference is it has an extra popup.
+  b) client-Login page are independent. It is not related with merchant screens.
+  c) Logic :
 
-(Page 2)
+   (1_login.jpg)
+   User keys in remember and abc123 and click signin button, screen redirects to 2_merchant.jpg.
+   
+   (2_merchant.jpg)
+   User clicks purchase button, screen redirects to 3_purchase.jpg.
 
-- Click purchase
+   (3_purchase.jpg)
+   User clicks Gigi button and Gigi word appear on the screen.
+   User keys in Pin code = 8055, system redirects to 4_puchase.jpg.
+   
+   (4_purchase.jpg)
+   User clicks credit button and key in RM30.
+   User clicks point button and key in 30.
+   User presses barcode button.
+   System redirects to 5_purchase.jpg.
 
-(Page 3)
+   (5_purchase.jpg)
+   User scans the barcode and system redirects to merchant 2_merchant.jpg.
 
-- Select Gigi.
-- Key in Pin Code 8055.
-
-(Page 4)
-
-1) User presses Credit button.
-2) Key in 30.
-3) Press barcode button.
-
-(Page 5)
-1) Screen shows QR code.
-
-(Page 6)
-1) Screen shows successful transaction.
-2) Screen shows credit purchased [Please ignore point and voucher].
-[Activity: Customer receives 200 cash in his phone.(No need do this part, just info]
-
-(Page 7)
-1) Screen shows transaction history and credit balance.
+   (2_merchant.jpg)
+   User clicks member button, screen redirects to 7_member.jpg.
+   User clicks transcation log button, screen redirects to 8_transcation_log.jpg.
