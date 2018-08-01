@@ -1,0 +1,6 @@
+SignUp		= client page 1
+Login		= page 1
+Merchant2	= page 2
+Purchase4	= page 4
+DesignFinal	= page 8
+Design2 	= page 7
